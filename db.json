@@ -1,0 +1,503 @@
+{
+  "users": [
+    {
+      "id": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "password": "ryan220055"
+    },
+    {
+      "id": 1761902884336,
+      "name": "dwi",
+      "email": "dwiprajab@gmail.com",
+      "password": "dwi"
+    },
+    {
+      "id": 1761903725289,
+      "name": "lana",
+      "email": "maulana@gmail.com",
+      "password": "maulana"
+    },
+    {
+      "id": 1761905148988,
+      "name": "putri",
+      "email": "putri@gmail.com",
+      "password": "putri"
+    },
+    {
+      "id": 1761906569308,
+      "name": "ryan",
+      "email": "riyandram@gmail.com",
+      "password": "ryan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Apel Fuji",
+      "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+      "price": 25000,
+      "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 5,
+      "name": "strowberry",
+      "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+      "price": 35000,
+      "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": 3,
+      "name": "semangka",
+      "desc": "semangka segar dari Sumatera Utara, manis dan sedikit asam.",
+      "price": 22000,
+      "image": "images/semangka.jpg"
+    },
+    {
+      "id": 4,
+      "name": "pear",
+      "desc": "pear matang dari Indramayu, manis dan harum segar.",
+      "price": 27000,
+      "image": "images/pear.jpg"
+    },
+    {
+      "id": 5,
+      "name": "melon",
+      "desc": "melon premium  dengan rasa manis lembut.",
+      "price": 18000,
+      "image": "images/melon.jpg"
+    },
+    {
+      "id": 6,
+      "name": "pisang cavendish",
+      "desc": "pisang segar, cocok untuk pelepas dahaga.",
+      "price": 20000,
+      "image": "images/pisang.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1761900748588,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "pear",
+          "price": 27000,
+          "image": "images/pear.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 62000,
+      "created_at": "2025-10-31T08:52:28.588Z"
+    },
+    {
+      "id": 1761902930241,
+      "userId": 1761902884336,
+      "name": "dwi",
+      "email": "dwiprajab@gmail.com",
+      "items": [
+        {
+          "id": 4,
+          "name": "pear",
+          "price": 27000,
+          "image": "images/pear.jpg",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "semangka",
+          "price": 22000,
+          "image": "images/semangka.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 49000,
+      "created_at": "2025-10-31T09:28:50.241Z"
+    },
+    {
+      "id": 1761902991291,
+      "userId": 1761902884336,
+      "name": "dwi",
+      "email": "dwiprajab@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "created_at": "2025-10-31T09:29:51.291Z"
+    },
+    {
+      "id": 1761903826178,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 60000,
+      "created_at": "2025-10-31T09:43:46.178Z"
+    },
+    {
+      "id": 1761904205623,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "created_at": "2025-10-31T09:50:05.623Z"
+    },
+    {
+      "id": 1761904495577,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "created_at": "2025-10-31T09:54:55.577Z"
+    },
+    {
+      "id": 1761904867755,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 60000,
+      "created_at": "2025-10-31T10:01:07.755Z"
+    },
+    {
+      "id": 1761905078069,
+      "userId": 1761900722179,
+      "name": "amel",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "created_at": "2025-10-31T10:04:38.069Z"
+    },
+    {
+      "id": 1761906065741,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 60000,
+      "created_at": "2025-10-31T10:21:05.741Z"
+    },
+    {
+      "id": 1761906630147,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 3,
+          "name": "semangka",
+          "desc": "semangka segar dari Sumatera Utara, manis dan sedikit asam.",
+          "price": 22000,
+          "image": "images/semangka.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 22000,
+      "created_at": "2025-10-31T10:30:30.147Z"
+    },
+    {
+      "id": 1761956146319,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 60000,
+      "created_at": "2025-11-01T00:15:46.319Z"
+    },
+    {
+      "id": 1761963879366,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "semangka",
+          "desc": "semangka segar dari Sumatera Utara, manis dan sedikit asam.",
+          "price": 22000,
+          "image": "images/semangka.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 47000,
+      "created_at": "2025-11-01T02:24:39.366Z"
+    },
+    {
+      "id": 1761964134431,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 35000,
+      "created_at": "2025-11-01T02:28:54.431Z"
+    },
+    {
+      "id": 1761967174121,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "semangka",
+          "desc": "semangka segar dari Sumatera Utara, manis dan sedikit asam.",
+          "price": 22000,
+          "image": "images/semangka.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 57000,
+      "created_at": "2025-11-01T03:19:34.121Z"
+    },
+    {
+      "id": 1761967461669,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "created_at": "2025-11-01T03:24:21.669Z"
+    },
+    {
+      "id": 1761967612004,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 35000,
+      "created_at": "2025-11-01T03:26:52.004Z"
+    },
+    {
+      "id": 1761968621826,
+      "userId": 1761902884336,
+      "name": "dwi",
+      "email": "dwiprajab@gmail.com",
+      "items": [
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 35000,
+      "created_at": "2025-11-01T03:43:41.826Z"
+    },
+    {
+      "id": 1761968909333,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 25000,
+      "created_at": "2025-11-01T03:48:29.333Z"
+    },
+    {
+      "id": 1761968979811,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 1,
+          "name": "Apel Fuji",
+          "desc": "Apel merah segar dari Jepang, renyah dan manis alami.",
+          "price": 25000,
+          "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "strowberry",
+          "desc": "strowberry merah segar dengan rasa manis legit tanpa biji.",
+          "price": 35000,
+          "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 60000,
+      "created_at": "2025-11-01T03:49:39.811Z"
+    },
+    {
+      "id": 1761977388735,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 3,
+          "name": "semangka",
+          "desc": "semangka segar dari Sumatera Utara, manis dan sedikit asam.",
+          "price": 22000,
+          "image": "images/semangka.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 22000,
+      "created_at": "2025-11-01T06:09:48.735Z"
+    }
+  ]
+}

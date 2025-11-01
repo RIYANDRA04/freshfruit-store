@@ -1,21 +1,22 @@
 {
-  "name": "freshfruit-store",
+  "name": "rpl_004",
   "version": "1.0.0",
-  "description": "website jual beli buah",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js && start http://localhost:3000",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RIYANDRA04/freshfruit-store.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/RIYANDRA04/freshfruit-store/issues"
-  },
-  "homepage": "https://github.com/RIYANDRA04/freshfruit-store#readme"
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
