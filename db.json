@@ -560,6 +560,24 @@
       ],
       "total": 22000,
       "created_at": "2025-11-01T07:02:02.954Z"
+    },
+    {
+      "id": 1761982500471,
+      "userId": 1761900722179,
+      "name": "ririn",
+      "email": "riyanmoo95@gmail.com",
+      "items": [
+        {
+          "id": 6,
+          "name": "pisang cavendish",
+          "desc": "pisang segar, cocok untuk pelepas dahaga.",
+          "price": 20000,
+          "image": "images/pisang.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 20000,
+      "created_at": "2025-11-01T07:35:00.471Z"
     }
   ]
 }
